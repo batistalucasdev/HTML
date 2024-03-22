@@ -1,0 +1,87 @@
+<!DOCTYPE hyml>
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8">
+	<title>Listas</title>
+</head>
+
+<body>
+	<h1>Listas ordenadas e não ordenadas</h1>
+
+	<!-- Lista ordenada -->
+	Lista ordenada
+	<ol>
+	<li>Primeiro elemento</li>
+	<li>Segundo elemento</li>
+	<li>Terceiro elemento</li>
+	</ol>
+	<!-- Lista não ordenada -->
+	Lista não ordenada
+	<ul>
+	<li>Primeiro elemento</li>
+	<li>Segundo elemento</li>
+	<li>Terceiro elemento</li>
+	</ul>
+
+	<p>Criando Tabelas</p>
+	<table>
+		<tr><th>Filmes</th><th>IMDB</th><th>Rotten Tomatoes</th><th>AdoroCinema</th></tr>
+		<tr><td>Django Unchained (2012)</td><td>8.5/10.0</td><td>87%/100%</td><td>5.0/5.0</td></tr>
+		<tr><td>The Godfather (1972)</td><td>9.2/10.0</td><td>97%/100%</td><td>4.8/5.0</td></tr>
+		<tr><td>Jaws (1975)</td><td>8.1/10.0</td><td>97%/100%</td><td>4.3/5.0</td></tr>
+		<tr><td>White Chicks (2004)</td><td>5.8/10.0</td><td>15%/100%</td><td>4.4/5.0</td></tr>
+	</table>
+
+	<form action="processa.php" method="post">
+
+		<label>Text</label>
+		<input type="text" name="texto1" placeholder="Text">
+
+		<br>
+
+		<label>Password</label>
+		<input type="password" name="senha">
+
+		<br>
+
+		<label>Oculto</label>
+		<input type="hidden" name="informacao_oculta" value="mensagem oculta">
+
+		<br>
+
+		<label>Select</label>
+		<select name="selecao">
+			<option value="1">Opção 1</option>
+			<option value="1">Opção 2</option>
+		</select>
+
+		<br>
+
+		<label>Radio</label>
+		<input type="radio" name="radio1" value="1">Valor 1
+		<input type="radio" name="radio1" value="2">Valor 2
+		<br>
+		<input type="radio" name="radio1" value="3">Valor 3<br>
+		<input type="radio" name="radio1" value="4">Valor 4
+
+		<br>
+
+		<label>Checkbox</label>
+		<input type="checkbox" name="ck1" value="1">Valor 1
+		<input type="checkbox" name="ck1" value="2">Valor 2
+		<br>
+		<input type="checkbox" name="ck1" value="3">Valor 3<br>
+		<input type="checkbox" name="ck1" value="4">Valor 4<br>
+		<input type="checkbox" name="ck1" value="5" checked>Valor 5
+		<!--Se quiser forçar a caixinha a começar marcada quando atualizar a página, escrever "checked" sem aspas depois do valor-->
+
+		<br>
+
+		<input type="submit" value="enviar" name="submit">
+
+</body>
+
+</html>
+
+
