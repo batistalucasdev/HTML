@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1 align="center">Formulário</h1>
+    <form action="">
+
+        <p>Texto (text)</p>
+
+        <input type="text" name="text_nome" size="30" placeholder="Digite seu nome">
+        
+        <br>
+        <br>
+
+        <p>Senha (password)</p>
+
+        <input type="password" name="pwd_senha" placeholder="Digite sua senha"
+        size="20">
+
+        <br>
+        <br>
+
+        <p>Texto longo (textarea)</p>
+        <textarea cols="20" rows="5" name="txt_comentarios" placeholder="Digite aqui seu comentário"></textarea>
+
+        <br>
+        <br>
+
+        <p>Múltipla escolha (checkbox)</p>
+
+        <input type="checkbox" name="ckb_music" value="forro" checked>Forró
+        <input type="checkbox" name="ckb_music" value="axe">Axé
+        <input type="checkbox" name="ckb_music" value="lambada" checked>Lambada
+
+        <br>
+        <br>
+
+        <p>Escolha única (radio)</p>
+        <input type="radio" name="rdb_job" value="p">Profissional
+        <input type="radio" name="rdb_job" value="e" checked>Estudante
+
+        <br>
+        <br>
+
+        <p>Caixas de seleção (select)</p>
+
+        <select name="slt_estado">
+            <option value="ce">Ceará</option>
+            <option value="ma">Maranhão</option>
+            <option value="pi" selected>Piauí</option>
+        </select>
+
+        <br>
+        <br>
+
+        <p>Botões (buttons)</p>
+        <input type="submit" name="btn_enviar" value="Entrar">
+        <input type="reset" name="btn_limpar" value="Limpar">
+
+        <br>
+        <br>
+
+        <p>Campos ocultos</p>
+
+    </form>
+</body>
+</html>
