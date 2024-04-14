@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagine Dragons</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="horizontal">
+        <ul>
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#biografia">Biografia</a></li>
+            <li><a href="#musicas">Músicas</a></li>
+            <li><a href="#videos">Vídeos</a></li>
+            <li><a href="#discografia">Discografia</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <nav class="vertical">
+        <ul>
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#biografia">Biografia</a></li>
+            <li><a href="#musicas">Músicas</a></li>
+            <li><a href="#videos">Vídeos</a></li>
+            <li><a href="#discografia">Discografia</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <header id="inicio">
+        <h1>Imagine Dragons</h1>
+        <img src="imagens/imagine_dragons.jpg" alt="Imagine Dragons">
+        <p>Imagine Dragons é uma banda de rock formada em Las Vegas, Nevada, em 2008.</p>
+    </header>
+
+    <section id="biografia">
+        <h2>Biografia</h2>
+        <ul>
+            <li>Formada por Dan Reynolds, Wayne Sermon, Ben McKee e Daniel Platzman.</li>
+            <li>Lançaram seu primeiro álbum, "Night Visions", em 2012.</li>
+            <li>Conhecidos por hits como "Radioactive", "Demons" e "Believer".</li>
+        </ul>
+        <img src="imagens/biografia.jpg" alt="Imagine Dragons">
+    </section>
+
+    <section id="musicas">
+        <h2>Músicas</h2>
+        <ol>
+            <li>Radioactive</li>
+            <li>Demons</li>
+            <li>Believer</li>
+        </ol>
+        <audio controls>
+            <source src="audio/imagine_dragons_radioactive.mp3" type="audio/mpeg">
+            Seu navegador não suporta o elemento de áudio.
+        </audio>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ktvTqknDobU" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <section id="videos">
+        <h2>Vídeos</h2>
+        <table>
+            <tr>
+                <td><iframe width="280" height="157" src="https://www.youtube.com/embed/ktvTqknDobU" frameborder="0" allowfullscreen></iframe></td>
+                <td><iframe width="280" height="157" src="https://www.youtube.com/embed/Ju8Hr50Ckwk" frameborder="0" allowfullscreen></iframe></td>
+            </tr>
+            <tr>
+                <td><iframe width="280" height="157" src="https://www.youtube.com/embed/5ik06gC0Ojw" frameborder="0" allowfullscreen></iframe></td>
+                <td><iframe width="280" height="157" src="https://www.youtube.com/embed/CU9P-AOJw0w" frameborder="0" allowfullscreen></iframe></td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="discografia">
+        <h2>Discografia</h2>
+        <table>
+            <tr>
+                <th>Álbum</th>
+                <th>Ano</th>
+                <th>Principais Singles</th>
+            </tr>
+            <tr>
+                <td>Night Visions</td>
+                <td>2012</td>
+                <td>Radioactive, Demons</td>
+            </tr>
+            <tr>
+                <td>Smoke + Mirrors</td>
+                <td>2015</td>
+                <td>I Bet My Life, Gold</td>
+            </tr>
+            <tr>
+                <td>Evolve</td>
+                <td>2017</td>
+                <td>Believer, Thunder</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+            <label for="mensagem">Mensagem:</label><br>
+            <textarea id="mensagem" name="mensagem" required></textarea><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+
+</body>
+</html>
