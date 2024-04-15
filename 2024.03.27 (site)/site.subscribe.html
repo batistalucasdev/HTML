@@ -14,61 +14,51 @@
 			<h3>Faça sua inscrição para receber as novidades em primeira mão!</h3>
 
 			<hr color="green">
-			
-			<form action="site.form.aceito.html" method="post">
+			<form action="site.resposta.html" method="post">
 
 				<fieldset>
 
-				<legend align="center"><b>Informações Pessoais</b></legend>
+					<legend align="center"><b>Informações Pessoais</b></legend>
 
-				<label>Nome:</label>
+					<label>Nome:</label>
 
-				<input type="text" name="nome" size="20">
+					<input placeholder="Digite seu nome" type="text" name="nome" size="30">
 
-				<br/><br/>
+					<br/><br/>
 
-				<label>E-mail: </label>
+					<label>E-mail: </label>
 
-				<input name="email" id="email" type="email" required>
+					<input placeholder="Digite seu e-mail" name="email" id="email" type="email" size="30" required>
 
-				<br/><br/>
+					<br/><br/>
 
-				<label>Data de nascimento:</label>
+					<label>Data de nascimento:</label>
 
-				<input type="date" name="data" id="data" required>
+					<input type="date" name="data" id="data" required>
 
-				<br/><br/>
+					<br/><br/>
 
-				<label>Endereço:</label>
+					<label><b>Endereço:</b></label>
 
-				<input type="text" name="endereco" size="40" 
-				maxlength= "40" placeholder="Digite o endereço"/>
+					<input type="text" name="endereco" size="40" 
+					maxlength= "40" placeholder="Digite o endereço"/>
 
-				<br/><br/>
+					<br/><br/>
+
+					<label><b>Sexo:</b></label><br>
+						
+					<input type="radio" name="sexo" value="M"/>Masculino
+					
+					<input type="radio" name="sexo" value="F"/>Feminino<br/>
 
 				</fieldset>
+								
+					<br/><br/>
 
-				
+					<input type="submit" name="enviar" value="Enviar Dados"/>
 
-				<form action="resposta.html" method="post">
-				
-				<br>
-
-				
-				<br/>
-				Sexo: <br/>
-					<input type="radio" name="sexo" value="M"/>Masculino<br/>
-					<input type="radio" name="sexo" value="F"/>Feminino<br/>
-				
-			
-				
-				<br/>
-				<input type="submit" name="enviar" value="Enviar Dados"/>
-
-				<input type="reset" name="limpar" value="Limpar Campos"/>
+					<input type="reset" name="limpar" value="Limpar Campos"/>
 			</form>
-
-			FALTA ~> inicio
 
 			<hr color="green">
 
