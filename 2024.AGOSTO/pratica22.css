@@ -1,6 +1,26 @@
-h2
-
-
+h2{
+    color:brown;
+    text-align: left;
+    font-family: arial;
+}
+p.esquerda{
+    color: brown;
+    text-align: left;
+    font-family: arial;
+    font-size: 12px;
+}
+p.centralizado{
+    color: brown;
+    text-align: center;
+    font-family: arial;
+    font-size: 12px;
+}
+p.direita{
+    color: brown;
+    text-align: right;
+    font-family: arial;
+    font-size: 12px;
+}
 
 
 /*
