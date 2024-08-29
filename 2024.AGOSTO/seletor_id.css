@@ -1,17 +1,10 @@
-h1{
-    color: green;
-    font-size: 12px;
-    text-align: center;
-    font-family: verdana;
-}
-
-p.centralizado{
-    font-size: 20px; 
+#titulo{
+    font-size: 20px;
     text-align: center;
     font-family: arial;
 }
-p.direita{
-    font-size: 12px; 
-    text-align: right;
+
+#subtitulo{
+    font-size: 10px; 
     font-family: verdana;
 }
